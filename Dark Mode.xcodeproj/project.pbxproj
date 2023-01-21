@@ -49,6 +49,8 @@
 		DC8252BA297AF5780084389C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DC82526A297AF5780084389C /* popup.css */; };
 		DC8252BB297AF5780084389C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DC82526B297AF5780084389C /* popup.js */; };
 		DC8252BC297AF5780084389C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DC82526B297AF5780084389C /* popup.js */; };
+		DCDED6F0297C97780020DB19 /* dark.css in Resources */ = {isa = PBXBuildFile; fileRef = DCDED6EF297C97780020DB19 /* dark.css */; };
+		DCDED6F1297C97780020DB19 /* dark.css in Resources */ = {isa = PBXBuildFile; fileRef = DCDED6EF297C97780020DB19 /* dark.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,7 @@
 		DC825298297AF5780084389C /* Dark Mode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dark Mode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC82529D297AF5780084389C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC82529E297AF5780084389C /* Dark Mode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dark Mode.entitlements"; sourceTree = "<group>"; };
+		DCDED6EF297C97780020DB19 /* dark.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = dark.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +217,7 @@
 				DC825269297AF5780084389C /* popup.html */,
 				DC82526A297AF5780084389C /* popup.css */,
 				DC621397297B4A2B003E87B6 /* light_mode.css */,
+				DCDED6EF297C97780020DB19 /* dark.css */,
 				DC62139A297B4A42003E87B6 /* dark_mode.css */,
 				DC82526B297AF5780084389C /* popup.js */,
 			);
@@ -432,6 +436,7 @@
 				DC8252B5297AF5780084389C /* content.js in Resources */,
 				DC621398297B4A2B003E87B6 /* light_mode.css in Resources */,
 				DC8252BB297AF5780084389C /* popup.js in Resources */,
+				DCDED6F0297C97780020DB19 /* dark.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +454,7 @@
 				DC8252B6297AF5780084389C /* content.js in Resources */,
 				DC621399297B4A2B003E87B6 /* light_mode.css in Resources */,
 				DC8252BC297AF5780084389C /* popup.js in Resources */,
+				DCDED6F1297C97780020DB19 /* dark.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

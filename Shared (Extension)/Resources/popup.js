@@ -14,7 +14,7 @@ async function SwitchMode() {
       target: {
         tabId: (await browser.tabs.getCurrent()).id,
       },
-    css: `body {  background-color: black !important;}`,
+    files: ["dark.css"]
      
     });
   } catch (err) {

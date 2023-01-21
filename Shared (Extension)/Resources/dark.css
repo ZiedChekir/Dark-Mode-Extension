@@ -1,0 +1,13 @@
+:root {
+  --background-color: black;
+  --text-color: white;
+}
+
+p, h1, h2, h3, h4, h5, h6, pre, b, strong, i, em, mark, small, del, ins, sub, sup, li, dt, dd, a, code, div, span, i, select, option, svg, link, input, optgroup, label, fieldset, legend, datalist, output, acronym, abbr, address, b, bdi, bdo, big, blockquote, cite, dfn, kbd, meter, q, rt, ruby, s, samp, time, tt, u
+{  color: var(--text-color) !important;}
+
+div, body, span, a, input, button, pre, code, header, footer, textarea, script, noscript, applet, embed, object, param, data, summary, dialog, details, aside, article,section, main, table, caption, th, tr, td, thead, tbody, tfoot, col, colgroup, ul,ol, li, dir, dl, dt, dd, nav, form, select, optgroup, fieldset, datalist, output, blockquote, cite, dfn, progress, q, rt, ruby, s, samp, template, rect
+{background-color:  var(--background-color) !important;}
+
+
+
